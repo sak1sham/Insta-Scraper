@@ -1,7 +1,7 @@
 var request = require('request');
 //var Excel = require('exceljs');
 const fs = require('fs');
-var user_id = "dil_ka_letterbox";
+var user_id = "YOUR_USERNAME";
 
 async function all_profile_data(user_id, book_name){
   var instagram_base_url = "https://www.instagram.com/"+ user_id +"/?__a=1";
